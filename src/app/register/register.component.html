@@ -34,8 +34,10 @@
                 <button class="remove item3" (click)="removeObra(i)">X</button>
             </div>
         </ng-container>
-        
+     
     </div>
-    <button type="submit">Submit</button>
+
+    <button type="submit" [disabled]="writerForm.invalid">Submit</button>
+    <div class="incomplete-form" *ngIf="writerForm.invalid">Favor preencher todos os campos corretamente!</div>   
 
 </form>

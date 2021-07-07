@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormArray, FormControl, FormGroup } from '@angular/forms';
 import { LibraryService } from '../library.service';
+import { Validators } from '@angular/forms'
 
 @Component({
   selector: 'app-register',
@@ -9,14 +10,15 @@ import { LibraryService } from '../library.service';
 })
 export class RegisterComponent implements OnInit {
   writerForm: FormGroup;
+  nome: FormControl;
 
   constructor(private libraryService: LibraryService) {}
 
   ngOnInit(): void {
     this.writerForm = new FormGroup({
-      nome: new FormControl(),
-      sobre: new FormControl(),
-      img: new FormControl(),
+      nome: new FormControl('', Validators.required),
+      sobre: new FormControl('', Validators.required),
+      img: new FormControl('', Validators.required),
       obras: new FormArray([]),
     });
   }
@@ -45,15 +47,17 @@ export class RegisterComponent implements OnInit {
 
   addObra() {
     const obraForm: FormGroup = new FormGroup({
-      titulo: new FormControl(),
-      ano: new FormControl(),
+      titulo: new FormControl('', Validators.required),
+      ano: new FormControl('', Validators.compose([Validators.required, Validators.pattern('^[0-9]{4}$')])),
     });
 
     this.getObras().push(obraForm);
-    console.log(this.getObras());
   }
 
   removeObra(index: number) {
     this.getObras().removeAt(index);
   }
+
 }
+
+

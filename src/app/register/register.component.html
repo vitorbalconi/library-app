@@ -1,0 +1,41 @@
+<!-- <div>
+    <h2>Não encontrou o autor desejado? Cadastre abaixo!</h2>
+    <form class="container" #writerForm="ngForm" (ngSubmit)="registerWriter(writerForm.value)">
+        <input type="text" name="nome" ngModel placeholder="Nome do autor">
+        <input type="text" name="sobre" ngModel  placeholder="Sobre o autor">
+        <input type="text" name="img" ngModel  placeholder="Imagem">
+        <input type="text" name="obra[0].titulo" ngModel  placeholder="Titulo da Obra">
+        <input type="text" name="obra[0].ano" ngModel  placeholder="Ano da Obra">
+        <button type="submit">Submit</button>
+    </form>
+</div> -->
+
+
+<form class="container" [formGroup]="writerForm" (ngSubmit)="registerWriter()">
+    <label for="nome">Nome do autor:</label>
+    <input name="nome" type="text" formControlName="nome" placeholder="Ex: Machado de Assis">
+    <label for="sobre">Sobre o autor:</label>
+    <textarea rows="5" class="about" name="sobre" type="text" formControlName="sobre" placeholder="Ex: Sobre o autor..."></textarea>
+    <label for="nome">Foto do autor:</label>
+    <input name="nome" type="text" formControlName="img" placeholder="URL da imagem">
+    <div class="container">
+        <button class="add" type="button" (click)="addObra()">Adicionar Obra</button>
+        <p *ngIf = "getObras().controls.length > 0">Obra<span *ngIf = "getObras().controls.length > 1">s</span> do autor:</p>
+        <ng-container *ngFor="let obra of getObras().controls; let i = index" [formGroup]="obra">
+            <div class="container-obra">
+                <div class="container item1">
+                    <label for="titulo">Título:</label>
+                    <input name="titulo" type="text" formControlName="titulo" placeholder="Ex: Dom Casmurro">
+                </div>
+                <div class="container item2">
+                    <label for="ano">Ano:</label>
+                    <input name="ano" type="text" formControlName="ano" placeholder="Ex: 1899">
+                </div>
+                <button class="remove item3" (click)="removeObra(i)">X</button>
+            </div>
+        </ng-container>
+        
+    </div>
+    <button type="submit">Submit</button>
+
+</form>

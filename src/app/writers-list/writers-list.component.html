@@ -1,0 +1,15 @@
+<div>
+    <h2>Lista de autores e suas obras:</h2>
+    <ul class = "container" *ngFor = "let writer of writersList"><h3>{{ writer.nome }}</h3>
+        <img src="{{ writer.img }}" alt="{{ writer.nome }}">
+        <li>{{ writer.sobre }}</li>   
+        <p>Obras:</p>     
+        <ul class="writerItem" *ngFor = "let book of writer.obras">
+            <li>Titulo: {{ book.titulo }}</li>
+            <li>Ano: {{ book.ano }}</li>      
+        </ul>
+    </ul>
+</div>  
+
+
+    

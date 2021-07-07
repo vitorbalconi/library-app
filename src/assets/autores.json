@@ -1,0 +1,208 @@
+{
+  "autores": [
+    {
+      "id": "1",
+      "nome": "Étienne de La Boétie",
+      "sobre": "Étienne de La Boétie foi um humanista e filósofo francês, contemporâneo e amigo de Michel de Montaigne (este que em seu ensaio 'Sobre a Amizade' faz uma homenagem a La Boétie). Poucos anos antes de morrer, aos 32 anos, Étienne de La Boétie deixou em testamento seus escritos a Montaigne, o qual, mais tarde, destacou os méritos nos Ensaios e em várias cartas, apontando este autor como um importante homem daquele século.",
+      "img": "assets/autores/etienne.jpeg",
+      "obras": [
+        {
+          "titulo": "Discurso da Servidão Voluntária",
+          "ano": "1563"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nome": "Contardo Calligaris",
+      "sobre": "Contardo Luigi Calligaris (Milão, 2 de junho de 1948 ― São Paulo, 30 de março de 2021) foi um renomado escritor, psicanalista e dramaturgo italiano radicado no Brasil. Foi colunista da Folha de S. Paulo e torcedor do poderoso Coritiba Foot Ball Club",
+      "img": "assets/autores/contardo.png",
+      "obras": [
+        {
+          "titulo": "Conto do Amor",
+          "ano": "2008"
+        },
+        {
+          "titulo": "A Mulher de Vermelho e Branco",
+          "ano": "2011"
+        },
+        {
+          "titulo": "Todos os Reis Estão Nus",
+          "ano": "2013"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "nome": "Machado de Assis",
+      "sobre": "Joaquim Maria Machado de Assis (Rio de Janeiro, 21 de junho de 1839 – Rio de Janeiro, 29 de setembro de 1908) foi um escritor brasileiro, considerado por muitos críticos, estudiosos, escritores e leitores um dos maiores senão o maior nome da literatura do Brasil.",
+      "img": "assets/autores/machado.jpeg",
+      "obras": [
+        {
+          "titulo": "Memórias Póstumas de Brás Cubas",
+          "ano": "1881"
+        },
+        {
+          "titulo": "Dom Casmurro",
+          "ano": "1899"
+        },
+        {
+          "titulo": "Quincas Borba",
+          "ano": "1891"
+        },
+        {
+          "titulo": "O Alienista",
+          "ano": "1882"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "nome": "Deepak Chopra",
+      "sobre": "Deepak Chopra, (Hindi: दीपक चोपड़ा) (Nova Deli, 22 de outubro de 1947) é um médico indiano radicado nos Estados Unidos. É formado em medicina pela Universidade de Nova Deli. É também escritor e professor de ayurveda, espiritualidade e medicina corpo–mente.",
+      "img": "assets/autores/deepak.jpeg",
+      "obras": [
+        {
+          "titulo": "Saúde Perfeita",
+          "ano": "1991"
+        },
+        {
+          "titulo": "As Sete Leis Espirituais do Sucesso",
+          "ano": "1994"
+        },
+        {
+          "titulo": "O Livro dos Segredos",
+          "ano": "2004"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "nome": "Virginia Woolf",
+      "sobre": "Adeline Virginia Woolf, nascida Adeline Virginia Stephen (Kensington, Middlesex, 25 de janeiro de 1882 — Lewes, Sussex, 28 de março de 1941), foi uma escritora, ensaísta e editora britânica. Estreou-se na literatura em 1915 com o romance The Voyage Out, que abriu o caminho para a sua carreira como escritora e uma série de obras notáveis. Woolf foi membro do Grupo de Bloomsbury e desempenhou um papel de significância dentro da sociedade literária londrina durante o período entre guerras.",
+      "img": "assets/autores/virginia.jpeg",
+      "obras": [
+        {
+          "titulo": "The Voyage Out",
+          "ano": "1915"
+        },
+        {
+          "titulo": "Night and Day",
+          "ano": "1919"
+        },
+        {
+          "titulo": "O Quarto de Jacob",
+          "ano": "1922"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "nome": "Isaac Asimov",
+      "sobre": "Isaac Asimov foi um escritor e bioquímico norte-americano, nascido na Rússia, autor de obras de ficção científica e divulgação científica. Asimov é considerado um dos mestres da Ficção Científica e, junto com Robert A. Heinlein e Arthur C. Clarke, foi considerado um dos 'três grandes' da ficção científica.",
+      "img": "assets/autores/isaac.jpeg",
+      "obras": [
+        {
+          "titulo": "I, Robot",
+          "ano": "1950"
+        },
+        {
+          "titulo": "Foundation",
+          "ano": "1942"
+        },
+        {
+          "titulo": "The Caves of Steel",
+          "ano": "1953"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "nome": "George Orwell",
+      "sobre": "Eric Arthur Blair, mais conhecido pelo pseudónimo George Orwell, foi um escritor, jornalista e ensaísta político inglês, nascido na Índia Britânica.",
+      "img": "assets/autores/george.jpg",
+      "obras": [
+        {
+          "titulo": "A Revolução dos Bichos",
+          "ano": "1945"
+        },
+        {
+          "titulo": "1984",
+          "ano": "1949"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "nome": "Ayn Rand",
+      "sobre": "Ayn Rand ( /aɪn rænd/); nascida Alisa Zinov'yevna Rozenbaum, em russo: Алиса Зиновьевна Розенбаум; (São Petersburgo, 2 de fevereiro de 1905 — Nova Iorque, 6 de março de 1982) foi uma escritora, dramaturga, roteirista e filósofa norte-americana de origem judaico-russa, mais conhecida por desenvolver um sistema filosófico chamado de Objetivismo, e por seus romances. Ela teve sua primeira peça produzida na Broadway em 1932.",
+      "img": "assets/autores/ayn.jpg",
+      "obras": [
+        {
+          "titulo": "A Revolta de Atlas",
+          "ano": "1957"
+        },
+        {
+          "titulo": "A Nascente",
+          "ano": "1943"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "nome": "Anne Rice",
+      "sobre": "Anne Rice (born Howard Allen Frances O'Brien; October 4, 1941) is an American author of gothic fiction, Christian literature, and erotic literature. She is best known for her series of novels The Vampire Chronicles, which revolve around the central character Lestat. Books from The Vampire Chronicles were the subject of two film adaptations—Interview with the Vampire (1994) and Queen of the Damned (2002).",
+      "img": "assets/autores/anne.jpg",
+      "obras": [
+        {
+          "titulo": "Entrevista com o Vampiro",
+          "ano": "1976"
+        },
+        {
+          "titulo": "O Vampiro Lestat",
+          "ano": "1985"
+        },
+        {
+          "titulo": "A Rainha dos Condenados",
+          "ano": "1988"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "nome": "J. R. R. Tolkien",
+      "sobre": "John Ronald Reuel Tolkien, CBE, FRSL, conhecido internacionalmente por J. R. R. Tolkien (Bloemfontein, 3 de janeiro de 1892 — Bournemouth, 2 de setembro de 1973), foi um escritor, professor universitário e filólogo britânico, nascido na atual África do Sul, que recebeu o título de doutor em Letras e Filologia pela Universidade de Liège e Dublin, em 1954, e autor das obras como O Hobbit, O Senhor dos Anéis e O Silmarillion. Em 28 de março de 1972, Tolkien foi nomeado Comendador da Ordem do Império Britânico pela Rainha Elizabeth II.",
+      "img": "assets/autores/john.jpg",
+      "obras": [
+        {
+          "titulo": "The Fellowship of the Ring",
+          "ano": "1954"
+        },
+        {
+          "titulo": "The Two Towers",
+          "ano": "1954"
+        },
+        {
+          "titulo": "The Return of the King",
+          "ano": "1955"
+        }
+      ]
+    },
+    {
+      "nome": "Gil Vicente",
+      "sobre": "Gil Vicente (c. 1465 — c. 1536) é considerado o primeiro grande dramaturgo português, além de poeta de renome. Primo de Valentim Gonçalves, e enquanto homem de teatro, parece ter também desempenhado as tarefas de músico, ator e encenador. É considerado o pai do teatro português, ou mesmo do teatro ibérico, já que também escreveu em castelhano - partilhando a paternidade da dramaturgia espanhola com Juan del Encina.",
+      "img": "https://www.portaldaliteratura.com/assets/files_autores/111.jpg",
+      "obras": [
+        {
+          "titulo": "Auto da Barca do Inferno",
+          "ano": "1516"
+        },
+        {
+          "titulo": "Farsa de Inês Pereira.",
+          "ano": "1523"
+        }
+      ],
+      "id": "ZjfH_Ci"
+    }
+  ]
+}

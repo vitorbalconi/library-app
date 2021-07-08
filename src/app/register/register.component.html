@@ -1,16 +1,3 @@
-<!-- <div>
-    <h2>Não encontrou o autor desejado? Cadastre abaixo!</h2>
-    <form class="container" #writerForm="ngForm" (ngSubmit)="registerWriter(writerForm.value)">
-        <input type="text" name="nome" ngModel placeholder="Nome do autor">
-        <input type="text" name="sobre" ngModel  placeholder="Sobre o autor">
-        <input type="text" name="img" ngModel  placeholder="Imagem">
-        <input type="text" name="obra[0].titulo" ngModel  placeholder="Titulo da Obra">
-        <input type="text" name="obra[0].ano" ngModel  placeholder="Ano da Obra">
-        <button type="submit">Submit</button>
-    </form>
-</div> -->
-
-
 <form class="container" [formGroup]="writerForm" (ngSubmit)="registerWriter()">
     <label for="nome">Nome do autor:</label>
     <input name="nome" type="text" formControlName="nome" placeholder="Ex: Machado de Assis">
